@@ -1,0 +1,21 @@
+{
+  "name": "eslint-plugin-lodash-to-native",
+  "version": "1.0.0",
+  "description": "Lodash map to native linter",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Gumer Shagiyanov",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0"
+  }
+}
