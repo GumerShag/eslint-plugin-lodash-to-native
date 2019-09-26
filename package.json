@@ -10,13 +10,14 @@
   "author": "Gumer Shagiyanov",
   "main": "index.js",
   "scripts": {
-    "test": "exit"
+    "test": "exit",
+    "fix": "prettier --config ./.prettier.config.js --write ./lib/map/map.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.4.0",
-    "mocha": "^6.2.0"
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2"
   },
   "peerDependencies": {
     "eslint": ">=2.10.0"
