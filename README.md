@@ -17,5 +17,5 @@
 
 1. `_.map([1, 2, 3], fn)` заменяется на `[1, 2, 3].map(fn)`
 2. `_.map({}, fn)` не подсвечивается и не предлагает заменить
-
+3. `return _.map(collection, fn)` заменяется на `return collection instanceof Array ? collection.map(fn) : _.map(collection, fn)`
 
